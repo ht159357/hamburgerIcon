@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/ht-humberger-icon.css" />
+		<style>
+			.demo-container{
+				width: 80px;
+				padding: 20px 10px;
+				background: #000;
+				display: inline-block;
+				margin-top: 3px;
+			}
+		</style>
+	</head>
+	<body>
+	<div>汉堡图标动画，仅供参考</div>
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-1">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-2">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-3">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-4">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-5">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-6">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-7">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-8">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-9">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+		
+		<div class="demo-container">
+			<div class="ht-hbg-icon-box js-demo-icon-10">
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+				<span class="ht-hbg-icon-line"></span>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript">
+		$(".js-demo-icon-1").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-x");
+			})
+		})
+		
+		$(".js-demo-icon-2").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-right-arr");
+			})
+		})
+		
+		$(".js-demo-icon-3").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-left-arr");
+			})
+		})
+		
+		$(".js-demo-icon-4").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-become-one");
+			})
+		})
+		
+		$(".js-demo-icon-5").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-v");
+			})
+		})
+		
+		$(".js-demo-icon-6").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-oblique");
+			})
+		})
+		
+		$(".js-demo-icon-7").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-add");
+			})
+		})
+		
+		$(".js-demo-icon-8").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-border-3");
+			})
+		})
+		
+		$(".js-demo-icon-9").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-more-short");
+			})
+		})
+		
+		$(".js-demo-icon-10").on("click",function(){
+			$(this).children(".ht-hbg-icon-line").each(function(){
+				$(this).toggleClass("ht-hbg-isactive-top-botttom-miss");
+			})
+		})
+		
+	</script>
+</html>
